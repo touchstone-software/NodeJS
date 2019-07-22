@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "pmx": "^1.6.4",
+    "request": "^2.85.0",
+    "ws": "^5.2.0",
+    "zeromq": "^4.6.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "databases": {
+        "main": {
+            "host": "example.com",
+            "user": "example",
+            "password": "example",
+            "database": "example"
+        },
+        "archive": {
+            "host": "example.com",
+            "user": "example",
+            "password": "example",
+            "database": "example"
+        }
+    },
+    "onesignal": {
+        "app_id": "example",
+        "key": "example"
+    },
+    "web": {
+        "url": "https://example.com/monitor/index.php"
+    },
+    "zeromq": {
+        "input_prices_port": 23402,
+        "output_prices_port": 23401,
+        "input_events_port": 23404,
+        "output_events_port": 23403,
+        "input_control_port": 23406,
+        "output_control_port": 23405,
+        "output_prices_host": "127.0.0.1",
+        "input_events_host": "127.0.0.1",
+        "output_events_host": "127.0.0.1",
+        "input_control_host": "127.0.0.1",
+        "output_control_host": "127.0.0.1"
+    },
+    "websocket": {
+        "port": 8080,
+        "sslCert": "fullchain.pem",
+        "sslKey": "privkey.pem"
+    },
+    "httpControl": {
+        "port": 8081,
+        "sslCert": "fullchain.pem",
+        "sslKey": "privkey.pem"
+    },
+    "prices": {
+        "saveInterval": 10000
+    },
+    "sessions": {
+        "saveInterval": 5000
+    },
+    "common": {
+        "ownBrokerId": 1
+    },
+    "logging": {
+        "archive": {
+            "pricesSave": false
+        },
+        "algorithm": {
+            "sessionsSave": false
+        }
+    }
+}
